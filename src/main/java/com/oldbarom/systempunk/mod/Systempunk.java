@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import com.oldbarom.systempunk.mod.block.ModBlocks;
 import com.oldbarom.systempunk.mod.block.entity.ModBlockEntities;
 import com.oldbarom.systempunk.mod.entity.ModEntities;
+import com.oldbarom.systempunk.mod.item.ModCreativeModTabs;
 import com.oldbarom.systempunk.mod.item.ModItems;
 import com.oldbarom.systempunk.mod.loot.ModLootModifiers;
 import com.oldbarom.systempunk.mod.recipe.ModRecipes;
@@ -31,6 +32,8 @@ public class Systempunk {
 
         public Systempunk(){
             IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+            ModCreativeModTabs.register(modEventBus);
 
             ModItems.register(modEventBus);
             ModBlocks.register(modEventBus);
