@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+    "category": "misc",
+    "cookingtime": 200,
+    "experience": 0.1,
+    "group": "sapphire_from_smelting_raw_sapphire",
+    "ingredient": {
+      "item": "systempunk:raw_sapphire"
+    },
+    "result": {
+      "item": "systempunk:sapphire"
+    }
+}

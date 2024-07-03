@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+"ingredients": [
+    {
+      "item": "systempunk:sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "systempunk:sapphire",
+    "count": 9
+  },
+  "group": "sapphire_from_sapphire_block"
+}

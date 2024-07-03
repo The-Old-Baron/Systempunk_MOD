@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "caregory": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "sapphire_from_blasting_raw_sapphire",
+    "ingredient": {
+        "item": "systempunk:raw_sapphire"
+    },
+    "result": {
+        "item": "systempunk:sapphire"
+    }
+
+}
