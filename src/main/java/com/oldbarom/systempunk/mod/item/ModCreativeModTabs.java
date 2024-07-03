@@ -19,11 +19,21 @@ public class ModCreativeModTabs
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.systempunk"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.SAPPHIRE.get());
-                        pOutput.accept(ModItems.RAW_SAPPHIRE.get());
-                        pOutput.accept(ModItems.STRAWBERRY.get());
-                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
-                    })
+                        //Items
+                        //Ores - Cast - Overword
+                        pOutput.accept(new ItemStack(ModItems.SAPPHIRE.get()));
+
+                        //Ores - Raw - Overworld
+                        pOutput.accept(new ItemStack(ModItems.RAW_SAPPHIRE.get()));
+
+                        //Blocks
+                        //Ores - Blocks - Overworld
+                        pOutput.accept(new ItemStack(ModBlocks.SAPPHIRE_BLOCK.get()));
+
+                        //Ores - Blocks - Raw - Overworld
+                        pOutput.accept(new ItemStack(ModBlocks.RAW_SAPPHIRE_BLOCK.get()));
+
+                                            })
                     .build());
 
     public static void register(IEventBus eventBus) {

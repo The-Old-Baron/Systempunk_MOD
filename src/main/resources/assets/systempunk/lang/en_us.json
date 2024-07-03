@@ -2,8 +2,12 @@
   "creativetab.systempunk": "Systempunk - Astral Kingdons",
 
   "item.systempunk.sapphire": "Sapphire",
-  "item.systempunk.raw_sapphire": "Raw Sapphire",
-  "item.systempunk.strawberry": "Strawberry",
+    "item.systempunk.raw_sapphire": "Raw Sapphire",
 
-  "block.systempunk.sapphire": "Sapphire Block"
+    "block.systempunk.sapphire_block": "Sapphire Block",
+    "block.systempunk.raw_sapphire_block": "Raw Sapphire"
+
+
+
+
 }
