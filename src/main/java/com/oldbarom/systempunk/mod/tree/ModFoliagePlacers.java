@@ -1,0 +1,16 @@
+package com.oldbarom.systempunk.mod.tree;
+
+import com.oldbarom.systempunk.mod.Systempunk;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacerType;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.registries.DeferredRegister;
+
+public class ModFoliagePlacers {
+    public static final DeferredRegister<FoliagePlacerType<?>> FOLIAGE_PLACERS =
+            DeferredRegister.create(Registries.FOLIAGE_PLACER_TYPE, Systempunk.MODID);
+
+    public static void register(IEventBus eventBus) {
+        FOLIAGE_PLACERS.register(eventBus);
+    }
+}
