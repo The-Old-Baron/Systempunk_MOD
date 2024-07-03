@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: examplemod
+Specification-Vendor: YourNameHere, OtherNameHere
+Specification-Version: 1
+Implementation-Title: Systempunk_MOD
+Implementation-Version: 1.0.0
+Implementation-Vendor: YourNameHere, OtherNameHere
+Implementation-Timestamp: 2024-06-30T16:07:09-0300
+
