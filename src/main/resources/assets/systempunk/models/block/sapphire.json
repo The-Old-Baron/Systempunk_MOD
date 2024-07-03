@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "systempunk:block/sapphire"
+    "all": "systempunk:block/sapphire_block"
   }
 }
