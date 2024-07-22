@@ -26,5 +26,20 @@
       <option name="name" value="maven" />
       <option name="url" value="https://maven.minecraftforge.net/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="Modmaven" />
+      <option name="name" value="Modmaven" />
+      <option name="url" value="https://modmaven.dev/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="JEI" />
+      <option name="name" value="JEI" />
+      <option name="url" value="https://maven.blamejared.com/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://maven.modmuss50.me/" />
+    </remote-repository>
   </component>
 </project>
